@@ -1,0 +1,613 @@
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    height: 60px;
+    width: 120px;
+    margin: 0px 100px 0px 150px;
+    display: block;
+}
+.right{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.main {
+    display: flex;
+}
+.second {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    cursor: pointer;
+     margin-right: 20px; 
+    position: relative;
+    right: 15px;
+     padding: 6px 6px; 
+    font-size: 16px;
+}
+
+p {
+    margin: 2px;
+}
+
+.sign {
+    width: 130px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: #2196f3;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+} 
+
+.logo:hover {
+    background-color: lightblue;
+}
+
+.blue {
+    background-color: #2f81ed;
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(to right,#186cda,#56ccf2);
+}
+
+.blue1 {
+    display: flex;
+    margin: 0 auto;
+}
+
+.bu {
+    cursor: pointer;
+    position: relative;
+    left: 190px;
+    width: 96px;
+    height:30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-right: 5xp;
+    background-color: white;
+    color: #2f81ed;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.blue1>.bu:hover {
+    
+    background-color: #2f81ed;
+    color: white;
+}
+
+.search-bar {
+    display: flex;
+    height: 100px;
+    max-width: 80%;
+    position: relative;
+    left:170px;
+    top: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.from {
+    cursor: pointer;
+    font-size: 12px ;
+    background-color: white;
+    width: 21.5%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.from:hover {
+   background-color: lightblue;
+}
+
+.from-para1 {
+    position: relative;
+    top:10px;
+    left: 15px;
+}
+
+.from-head {
+    position: relative;
+    top: -30px;
+    left: 15px;
+}
+
+.from-para2 {
+    position: relative;
+    top: -35px ;
+    left: 10px;
+    font-size: 11px ;
+}
+
+.fa-arrows-left-right {
+    position: relative;
+    left: 253px;
+    bottom: -10px;
+    color: #7E7979;
+}
+
+.to {
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 18px;
+    background-color: white;
+    width: 16.5%;
+    height: 100%;
+}
+
+.to:hover {
+    background-color: lightblue;
+}
+
+.to-para1 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+
+.to-head {
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+.to-para2 {
+    position: relative;
+    top: -25px;
+    left: 10px;
+}
+
+.date {
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 20px;
+    background-color: white;
+    width: 12.5%;
+    height: 100%;
+}
+
+.date:hover {
+    background-color: lightblue;
+}
+
+.date-para1 {
+    position: relative;
+    top:10px;
+    left: 10px;
+}
+
+.date-head {
+    position: relative;
+    left: 10px;
+    top: -7px;
+
+}
+
+.date-para2 {
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+#caller{
+    position: relative;
+   left: 140px;
+   top:-65px;
+    font-size: 25px;
+    color: #7E7979;
+}
+
+.fa-calendar-days{
+    position: relative;
+    left: 130px;
+    top: -35px;
+    bottom: 50px;
+    font-size: 25px;
+ 
+}
+
+.return {
+    cursor: pointer;
+    font-size: 13px;
+    color: #7E7979; 
+    margin-left: 20px;
+    background-color: white;
+    width: 14.5%;
+    height: 100%;
+}
+
+.return:hover {
+    background-color: lightblue;
+}
+
+.return-para {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.return-para1 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.travel {
+    font-size: 12px;
+    background-color: white;
+    width: 14.5%;
+    height: 100%;
+    cursor: pointer;
+}
+.travel:hover {
+    background-color: lightblue;
+}
+
+.travel-para {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.travel-head{
+    position: relative;
+    left: 20px;
+}
+
+.travel-para1 {
+    position: relative;
+    top: -40px;
+    left: 20px;
+    
+}
+
+.fa-chevron-down {
+    position: relative;
+    left: 140px;
+    bottom: 40px;
+}
+
+.search {
+    height: auto;
+    /* margin-left: 20px; */
+    position: relative;
+    padding-top: 35px;
+    width:18.5;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+    background-color:#ef6614;
+    color: white;
+    font-size:larger;
+    
+}
+
+.search:hover {
+    background-color: lightblue;
+}
+
+.label {
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 180px;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.ind {
+    display: flex;
+    justify-content: center;
+  position: relative;
+  top:20px;
+}
+.ind-imag1{
+    width: 50px;
+    height: 30px;
+    position: relative;
+    top: 25px;
+    left: 90px;
+   
+}
+.ind-imag2{
+    width: 50px;
+    height: 30px;
+    position: relative;
+    top: 25px;
+    left: -140px;
+}
+
+.exclusive {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.exclusive {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+button {
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin: 5px;
+    border-color: transparent;
+    background-color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #2f81ed;
+    color: white;
+}
+.container{
+    display: flex;
+    width: 100%;
+   height: 310px;
+   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+}
+.child-container{
+   border: 1px solid;
+   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+    width: 25.5%;
+    height: 250px;
+   margin-right: 15px;
+   padding: 10px ;
+   border-radius: 20px;
+   background-color: aliceblue;
+   
+}
+.container-para{
+    font-size: 14px;
+}
+.card-image{
+    height: 150px;
+    
+}
+.grand-container{
+    padding: 8px 2px;
+   width: 97%;
+   height: 160px;
+   border-radius: 10px;
+   background-image: linear-gradient(to right,#2f80ed,#56ccf2);
+   
+}
+.grand-container >img{
+    width: 105px;
+    position: relative;
+ left:78px;
+ bottom:83px;
+ border-top-left-radius: 40px ;
+ border-top-right-radius: 40px;
+ 
+}
+.container-kokho{
+    position: relative;
+    top: 10px;
+  
+}
+.container-view{
+    margin-top: 5px;
+    text-align: center;
+    padding: 5px 20px;
+    width: 120px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: #2196f3;
+    position:relative;
+    left:50%;
+    color: white;
+    font-size:15px ;
+    cursor: pointer;
+}
+.container-view:hover{
+    background-color:white;
+    color: #2196f3;
+}
+.refund{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: 100%;
+    margin-top: 20px;
+ }
+ .refund-child{
+    margin-left: 10px;
+    position: relative;
+    left: 140px;
+    width: 55%;
+    height:130px ;
+    background-image:linear-gradient( to right,#76c6f5,#62aceb,#31d2c2,#12c29f);
+    border-radius: 20px;
+   
+ }
+ .refund-image1{
+    position: relative;
+    top: 25px;
+    left: -120px;
+    width: 100px;
+ }
+ .refund-head{
+    position: relative;
+    left: 18%;
+    top:-70px;
+    font-size: 20px;
+ }
+ .refund-par{
+    position: relative;
+    left: 34%;
+    top:-115px;
+    font-size: 13px;  
+ }
+ .atm{
+    width: 40%;
+    height: 130px;
+    position: relative;
+    left: 70px;
+ }
+ .atm-image{
+    width: 40%;
+    height: 100%;
+ }
+  ul{
+    position: relative;
+    font-size: 14px;
+  top:-120px;
+  left: 15%;
+}
+ li{
+    list-style-type: circle;
+    font-size: 13px; 
+ } 
+ .refund-image2{
+    position: relative;
+    bottom: 210px;
+    left:560px;
+}
+.main-place{
+    width: 100%;
+    height: 500px;
+}
+.child-parent{
+    display: grid;
+    width: 60%;
+    height: 350px;
+    grid-template-columns: repeat(3,auto);
+    position: relative;
+    left: 250px;
+    gap: 8px;
+    padding: 5px;
+}
+.child-main{
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.child-main > img{
+    height:70px;
+    width: 70px;
+    border-radius: 10px;
+    position: relative;
+    left: -120px;
+    top: 10px;
+}
+ .child-main:hover{
+ background-color: lightblue;
+}
+ .para-child{
+ position: relative;
+ left: 120px;
+ top:-50px;
+ font-size: 13px;
+}
+.para1-child{
+    position: relative;
+ left: 120px;
+ top:-50px;
+ color: #2196f3;
+}
+.last{
+    width: 40%;
+    height: 90px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+    position: relative;
+    left: 7%;
+   border-radius: 20px;
+}
+.last-imag1{
+    height: 40px;
+    position: relative;
+    left: -170px;
+    top:25px;
+}
+.last-para{
+    position: relative;
+    left: 20%;
+    font-size: 15px;
+    top: -80px;
+    
+}
+.last-para1{
+    position: relative;
+    top: -80px;
+    left: 20%;
+    font-size: 13px;
+}
+.last-para2{
+    position: relative;
+    top: -80px;
+    left: 20%;
+    color:#2196f3 ;
+}
+.last2{
+    width: 40% ;
+    height: 90px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+    position: relative;
+    left: 50%;
+    bottom:83px;
+    border-radius: 20px;
+   
+}
+.last-imag2{
+    height: 40px;
+    position: relative;
+   left: -175px;
+    top:20px;
+}
+.last2-para{
+    position: relative;
+    left: 20%;
+    font-size: 15px;
+    top: -80px;
+    }
+    .last2-para1{
+        position: relative;
+    left: 20%;
+    font-size: 13px;
+    top: -80px;
+    }
+    .last2-para2{
+        position: relative;
+        left: 44%;
+        bottom: 98px;
+        
+        color:#2196f3 ;
+    }
+.last-photo{
+    height: 90px;
+    width: 90px;
+    background-color: lightblue;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 20px;
+   
+}
+.last-photo1{
+    height: 90px;
+    width: 90px;
+    background-color:lightblue;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 20px;
+}
